@@ -63,6 +63,8 @@ const handleSubmit = async (e) => {
 
     const data = new FormData(form);
 
+    messageDiv.innerHTML = data;
+
     chatContainer.innerHTML += chatStripe(false, data.get('prompt'));
 
     form.reset();

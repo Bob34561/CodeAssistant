@@ -65,8 +65,6 @@ const handleSubmit = async (e) => {
 
     chatContainer.innerHTML += chatStripe(false, data.get('prompt'));
 
-    chatContainer.innerHTML = data;
-
     form.reset();
     
     const uniqueId = generateUniqueId();

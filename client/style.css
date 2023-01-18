@@ -40,11 +40,11 @@ body {
 }
 
 .container {
+  height: 15vh; 
   display: flex;
   align-items: center;
-  height: 15vh;
   justify-content: center;
-  font-size: 8em;
+  font-size: 6em;
   color:#7A7A7A;
   text-shadow: 0.1vh 0.1vh 0.1vh #C9C9C9;
 }

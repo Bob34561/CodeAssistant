@@ -39,12 +39,12 @@ body {
   scroll-behavior: smooth;
 }
 
-#name {
+.container {
   display: flex;
   align-items: center;
-  height: 10vh;
+  height: 15vh;
   justify-content: center;
-  font-size: 15vh;
+  font-size: 8em;
   color:#7A7A7A;
   text-shadow: 0.1vh 0.1vh 0.1vh #C9C9C9;
 }
